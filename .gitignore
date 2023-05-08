@@ -1,0 +1,14 @@
+# Visual Studio
+.vs/
+.vsconfig
+*.csproj
+*.sln
+
+# Unity Transient Files
+Library/
+Logs/
+Temp/
+obj/
+
+# Unity Local Settings
+UserSettings/
