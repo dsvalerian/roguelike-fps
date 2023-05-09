@@ -9,7 +9,17 @@ namespace RoguelikeFPS.Level
 
         public static Room GenerateRoom()
         {
-            return new Room(roomSize);
+            Room room = new Room(roomSize);
+
+            for (int x = 0; x < roomSize; x++)
+            {
+                for (int y = 0; y < roomSize; y++)
+                {
+                    room.SetCell(x, y, new Cell(CellCategory.Empty));
+                }
+            }
+
+            return room;
         }
     }
 }

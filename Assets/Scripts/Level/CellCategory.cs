@@ -1,6 +1,6 @@
 namespace RoguelikeFPS.Level
 {
-    public enum CallCategory
+    public enum CellCategory
     {
         Empty,
         Room,

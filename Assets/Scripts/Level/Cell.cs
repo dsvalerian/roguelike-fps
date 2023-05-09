@@ -5,14 +5,14 @@ namespace RoguelikeFPS.Level
 {
     public class Cell
     {
-        private CallCategory category;
+        private CellCategory category;
 
-        public Cell(CallCategory category)
+        public Cell(CellCategory category)
         {
             this.category = category;
         }
 
-        public CallCategory GetCategory()
+        public CellCategory GetCategory()
         {
             return category;
         }
